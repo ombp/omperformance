@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>O&m Performance</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+            <!--------------Form------------------->
+            <section data-role="page" id="form">           
+                <div data-role="content" id="form">
+                    <div data-role="header">
+                        <h1>Form</h1>
+                        <a data-role="button" href="" data-rel="back" data-icon="back" rel="external">Back</a>
+                        <a data-role="button" href="menu.html" data-icon="heart" data-iconpos="right" >Menu</a>
+                    </div>
+                    <div data-role="content">
+                        <form>
+                            <!--  <div class="ui-field-contain">                          
+                                   <label>วัน:</label>
+                                      <input type="date" placeholder="date">                   
+                              </div>  -->
+                            <div class="ui-field-contain">                          
+                                <label>Plant :</label>
+                                <select>
+                                    <option>plant</option>
+                                    <option>RGCO</option>
+                                    <option>RGCO-T1</option>
+                                    <option>RGCO-T2</option>
+                                    <option>RPCL</option>
+                                    <option>RPCL-C1</option> 
+                                    <option>RPCL-C2</option>
+                                    <option>HSA</option>
+                                    <option>HSA-T1</option>
+                                    <option>HSA-T2</option>
+                                </select>                 
+                            </div>
+                            <div class="ui-field-contain">                          
+                                <label>เดือน:</label>
+                                <input type="month">                   
+                            </div>
+                            <div class="ui-field-contain">
+                                <label>Target GWEAF (%):</label>
+                                <input type="number" data-clear-btn="true" placeholder="Target GWEAF (%)">
+                            </div>
+                            <div class="ui-field-contain">
+                                <label>Actual GWEAF (%):</label>
+                                <input type="number" data-clear-btn="true" placeholder="Actual GWEAF (%)">
+                            </div>
+                            <div class="ui-field-contain">                          
+                                <label>Target Heat Rate (kJ/kWh):</label>
+                                <input type="text" data-clear-btn="true" placeholder="Target Heat Rate (kJ/kWh)">                   
+                            </div>
+                            <div class="ui-field-contain">                          
+                                <label>Actual Heat Rate (kJ/kWh):</label>
+                                <input type="text" data-clear-btn="true" placeholder="Actual Heat Rate (kJ/kWh)">                   
+                            </div> 
+                            <!--   <div class="ui-field-contain">                          
+                                    <label>Event:</label>
+                                    <textarea> </textarea>                                     
+                               </div> 
+                               <div class="ui-field-contain">                          
+                                    <label>Search :</label>
+                                       <input type="search">                   
+                               </div>                   
+                               <div class="ui-field-contain">                          
+                                    <label>Age :</label>
+                                       <input type="range" min="20.5" max="59.5" step="0.5">                   
+                               </div>  
+                               <div class="ui-field-contain"> 
+                                   <fieldset data-role="controlgroup"  data-type="horizontal">                   
+                                    <legend>เพศ :</legend>
+                                       <input type="radio" name="rdl" id="rd1">                     
+                                       <label for="rd1">ชาย</label>
+                                       <input type="radio" name="rdl" id="rd2">                          
+                                       <label for="rd2">หญิง</label>
+                                       <input type="radio" name="rdl" id="rd3">                          
+                                       <label for="rd3">อื่นๆ</label>
+                                       </fieldset>
+                               </div>
+                                   <div class="ui-field-contain"> 
+                                   <fieldset data-role="controlgroup" data-type="horizontal">
+                                       <legend>ภาษา :</legend>
+                                       <label for="chk1">Thai</label>
+                                       <input type="checkbox" name="chkl" id="chk1">                          
+                                       <label for="chk2">Bkk</label>
+                                       <input type="checkbox" name="chk2" id="chk2">                         
+                                       </fieldset>
+                               </div> 
+                               <div class="ui-field-contain">                          
+                                    <label>Switch :</label>
+                                    <select data-role="slider">
+                                        <option>Off</option>
+                                        <option>On</option>                         
+                                    </select>               
+                               </div> 
+                                    <div class="ui-field-contain">                          
+                                    <label>Province :</label>
+                                    <select>
+                                        <option>กทม.</option>
+                                        <option>นนทบุรี</option>                         
+                                    </select>                 
+                               </div> 
+                                          <div class="ui-field-contain">                          
+                                    <label>Province :</label>
+                                    <select data-mini="ture">
+                                        <option>กทม.</option>
+                                        <option>นนทบุรี</option>
+                                        <option>ลพบุรี</option>
+                                        <option>ชัยนาท</option> 
+                                    </select>                 
+                               </div> 
+                                                       <div class="ui-field-contain">                          
+                                    <label>Province :</label>
+                                    <select name="province" multiple="multiple" id="province" data-native-menu="false">
+                                         <option>จังหวัด</option>
+                                        <option>กทม.</option>
+                                        <option>นนทบุรี</option>
+                                        <option>ลพบุรี</option>
+                                        <option>ชัยนาท</option> 
+                                    </select>                 
+                               </div> --> 
+                            <div class="ui-field-contain">
+                                <div class="ui-grid-b">
+                                    <div class="ui-block-a"></div> 
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <button type="submit" data-icon="check">Send</button>
+                                        <button type="reset" data-icon="delete">Cancel</button>                                               
+                                    </fieldset>                      
+                                </div>
+                            </div>
+                    </div> 
+                    </form>                
+                </div>
+                <footer data-role="footer">
+                    <h1>&COPY;2015 O&m@EGAT</h1>
+                </footer>    
+            </section>
+        </div>
+    </body>
+</html>
